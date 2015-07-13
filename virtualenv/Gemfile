@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+gem 'sinatra'
+gem 'PriorityQueue'
+gem 'json'
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'sinatra-reloader'
+gem 'sqlite3'

@@ -1,0 +1,192 @@
+D, [2015-07-13T01:57:41.587989 #5153] DEBUG -- :   [1m[36mNode Load (4.2ms)[0m  [1mSELECT "nodes".* FROM "nodes"[0m
+E, [2015-07-13T01:57:41.588333 #5153] ERROR -- : SQLite3::SQLException: no such table: nodes: SELECT "nodes".* FROM "nodes"
+D, [2015-07-13T02:21:24.526777 #5211] DEBUG -- :   [1m[35mNode Load (2.9ms)[0m  SELECT "nodes".* FROM "nodes"
+D, [2015-07-13T02:21:07.068642 #5211] DEBUG -- :   [1m[36mNode Load (5.6ms)[0m  [1mSELECT "nodes".* FROM "nodes"[0m
+D, [2015-07-13T02:38:31.084847 #5211] DEBUG -- :   [1m[35mMap Load (2.7ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:38:43.255334 #5211] DEBUG -- :   [1m[36mMap Load (1.9ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:36:35.629501 #5211] DEBUG -- :   [1m[36mMap Load (2.9ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:39:06.502555 #5211] DEBUG -- :   [1m[36m (2.6ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:39:06.504182 #5211] DEBUG -- :   [1m[35mMap Load (1.1ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:39:11.355477 #5211] DEBUG -- :   [1m[36mMap Load (2.4ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:38:51.762093 #5211] DEBUG -- :   [1m[35mMap Load (3.4ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:40:51.096867 #5211] DEBUG -- :   [1m[36m (5.3ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:40:51.100934 #5211] DEBUG -- :   [1m[35m (2.4ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:40:51.104865 #5211] DEBUG -- :   [1m[36mMap Load (2.5ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:41:39.996325 #5211] DEBUG -- :   [1m[35m (1.9ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:41:39.997418 #5211] DEBUG -- :   [1m[36mMap Load (0.7ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:40:28.173689 #5211] DEBUG -- :   [1m[35mMap Load (4.7ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:42:11.778344 #5211] DEBUG -- :   [1m[36m (2.1ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:42:37.254390 #5211] DEBUG -- :   [1m[35m (3.5ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:42:37.256865 #5211] DEBUG -- :   [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:42:48.596810 #5211] DEBUG -- :   [1m[35m (2.2ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:41:49.586414 #5211] DEBUG -- :   [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:41:49.590035 #5211] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:41:49.592836 #5211] DEBUG -- :   [1m[35mMap Load (2.0ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:43:28.571136 #5211] DEBUG -- :   [1m[35m (2.6ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:43:40.794058 #5211] DEBUG -- :   [1m[36m (3.3ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:43:15.762581 #5211] DEBUG -- :   [1m[36m (6.0ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:43:59.635052 #5211] DEBUG -- :   [1m[36m (2.7ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:44:23.353073 #5211] DEBUG -- :   [1m[35m (3.2ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:43:53.282719 #5211] DEBUG -- :   [1m[35m (3.1ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:47:01.010324 #5211] DEBUG -- :   [1m[36m (2.7ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:47:13.239472 #5211] DEBUG -- :   [1m[35m (3.8ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:47:22.598795 #5211] DEBUG -- :   [1m[36m (2.9ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:47:22.606207 #5211] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2015-07-13T02:47:22.669189 #5211] DEBUG -- :   [1m[36mNode Exists (38.6ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" IS NULL AND "nodes"."destination" IS NULL) LIMIT 1[0m
+D, [2015-07-13T02:47:22.674618 #5211] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'B') LIMIT 1
+D, [2015-07-13T02:47:22.675410 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'D') LIMIT 1[0m
+D, [2015-07-13T02:47:22.676129 #5211] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'C') LIMIT 1
+D, [2015-07-13T02:47:22.676853 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'C' AND "nodes"."destination" = 'D') LIMIT 1[0m
+D, [2015-07-13T02:47:22.677594 #5211] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'E') LIMIT 1
+D, [2015-07-13T02:47:22.678362 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'D' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T02:47:22.680150 #5211] DEBUG -- :   [1m[35mMap Exists (0.2ms)[0m  SELECT  1 AS one FROM "maps" WHERE "maps"."name" = 'Mapa SP' LIMIT 1
+D, [2015-07-13T02:47:22.680782 #5211] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+D, [2015-07-13T02:49:46.514501 #5211] DEBUG -- :   [1m[36m (2.3ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:49:57.930796 #5211] DEBUG -- :   [1m[35m (4.4ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:49:09.587127 #5211] DEBUG -- :   [1m[35m (3.4ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:51:05.746051 #5211] DEBUG -- :   [1m[35m (4.9ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:51:26.732992 #5211] DEBUG -- :   [1m[36m (5.0ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:51:26.737243 #5211] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2015-07-13T02:51:26.740188 #5211] DEBUG -- :   [1m[36mNode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'B') LIMIT 1[0m
+D, [2015-07-13T02:51:26.741065 #5211] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'D') LIMIT 1
+D, [2015-07-13T02:51:26.741818 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'C') LIMIT 1[0m
+D, [2015-07-13T02:51:26.742827 #5211] DEBUG -- :   [1m[35mNode Exists (0.2ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'C' AND "nodes"."destination" = 'D') LIMIT 1
+D, [2015-07-13T02:51:26.745333 #5211] DEBUG -- :   [1m[36mNode Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T02:51:26.749662 #5211] DEBUG -- :   [1m[35mNode Exists (0.5ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'D' AND "nodes"."destination" = 'E') LIMIT 1
+D, [2015-07-13T02:51:26.751184 #5211] DEBUG -- :   [1m[36mMap Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "maps" WHERE "maps"."name" = 'Mapa SP' LIMIT 1[0m
+D, [2015-07-13T02:51:26.754701 #5211] DEBUG -- :   [1m[35mSQL (2.4ms)[0m  INSERT INTO "maps" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Mapa SP"], ["created_at", "2015-07-13 02:51:26.751378"], ["updated_at", "2015-07-13 02:51:26.751378"]]
+D, [2015-07-13T02:51:26.756252 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'B') LIMIT 1[0m
+D, [2015-07-13T02:51:26.758372 #5211] DEBUG -- :   [1m[35mSQL (1.0ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "A"], ["destination", "B"], ["distanceInKilometer", 10.0], ["map_id", 2], ["created_at", "2015-07-13 02:51:26.756458"], ["updated_at", "2015-07-13 02:51:26.756458"]]
+D, [2015-07-13T02:51:26.759918 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'D') LIMIT 1[0m
+D, [2015-07-13T02:51:26.762627 #5211] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "B"], ["destination", "D"], ["distanceInKilometer", 15.0], ["map_id", 2], ["created_at", "2015-07-13 02:51:26.760193"], ["updated_at", "2015-07-13 02:51:26.760193"]]
+D, [2015-07-13T02:51:26.766266 #5211] DEBUG -- :   [1m[36mNode Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'C') LIMIT 1[0m
+D, [2015-07-13T02:51:26.767696 #5211] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "A"], ["destination", "C"], ["distanceInKilometer", 20.0], ["map_id", 2], ["created_at", "2015-07-13 02:51:26.766577"], ["updated_at", "2015-07-13 02:51:26.766577"]]
+D, [2015-07-13T02:51:26.768942 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'C' AND "nodes"."destination" = 'D') LIMIT 1[0m
+D, [2015-07-13T02:51:26.769503 #5211] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "C"], ["destination", "D"], ["distanceInKilometer", 30.0], ["map_id", 2], ["created_at", "2015-07-13 02:51:26.769050"], ["updated_at", "2015-07-13 02:51:26.769050"]]
+D, [2015-07-13T02:51:26.770816 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T02:51:26.771733 #5211] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "B"], ["destination", "E"], ["distanceInKilometer", 50.0], ["map_id", 2], ["created_at", "2015-07-13 02:51:26.770948"], ["updated_at", "2015-07-13 02:51:26.770948"]]
+D, [2015-07-13T02:51:26.773757 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'D' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T02:51:26.774627 #5211] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "D"], ["destination", "E"], ["distanceInKilometer", 30.0], ["map_id", 2], ["created_at", "2015-07-13 02:51:26.773888"], ["updated_at", "2015-07-13 02:51:26.773888"]]
+D, [2015-07-13T02:51:26.784435 #5211] DEBUG -- :   [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+D, [2015-07-13T02:50:46.004740 #5211] DEBUG -- :   [1m[36m (2.2ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:51:56.180579 #5211] DEBUG -- :   [1m[35m (3.0ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:51:56.188985 #5211] DEBUG -- :   [1m[36mMap Load (1.1ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? AND "id"."name" = 'Mapa SP' LIMIT 1[0m  [["name", "Mapa SP"]]
+E, [2015-07-13T02:51:56.189073 #5211] ERROR -- : SQLite3::SQLException: no such column: id.name: SELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? AND "id"."name" = 'Mapa SP' LIMIT 1
+D, [2015-07-13T02:52:59.242357 #5211] DEBUG -- :   [1m[35m (2.9ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:52:59.244467 #5211] DEBUG -- :   [1m[36mMap Load (1.1ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? AND "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"], ["name", "Mapa SP"]]
+D, [2015-07-13T02:52:31.028437 #5211] DEBUG -- :   [1m[35m (2.5ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:52:31.037911 #5211] DEBUG -- :   [1m[36mMap Load (2.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? AND "id"."name" = 'Mapa SP' LIMIT 1[0m  [["name", "Mapa SP"]]
+E, [2015-07-13T02:52:31.038226 #5211] ERROR -- : SQLite3::SQLException: no such column: id.name: SELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? AND "id"."name" = 'Mapa SP' LIMIT 1
+D, [2015-07-13T02:54:14.053350 #5211] DEBUG -- :   [1m[35m (3.5ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:54:14.061713 #5211] DEBUG -- :   [1m[36mMap Load (1.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:53:08.467293 #5211] DEBUG -- :   [1m[35m (3.4ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:53:08.469561 #5211] DEBUG -- :   [1m[36mMap Load (1.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? AND "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"], ["name", "Mapa SP"]]
+D, [2015-07-13T02:54:24.535895 #5211] DEBUG -- :   [1m[35m (3.1ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T02:54:24.539564 #5211] DEBUG -- :   [1m[36mMap Load (2.1ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:57:16.921544 #5211] DEBUG -- :   [1m[35mMap Load (2.9ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1  [["name", "Mapa SP"]]
+D, [2015-07-13T02:57:32.642669 #5211] DEBUG -- :   [1m[36mMap Load (2.0ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:57:32.650369 #5211] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2015-07-13T02:57:32.655440 #5211] DEBUG -- :   [1m[36mNode Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'B') LIMIT 1[0m
+D, [2015-07-13T02:57:32.656531 #5211] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'D') LIMIT 1
+D, [2015-07-13T02:57:32.657385 #5211] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'C') LIMIT 1[0m
+D, [2015-07-13T02:57:32.658162 #5211] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'C' AND "nodes"."destination" = 'D') LIMIT 1
+D, [2015-07-13T02:57:32.659463 #5211] DEBUG -- :   [1m[36mNode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T02:57:32.660172 #5211] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'D' AND "nodes"."destination" = 'E') LIMIT 1
+D, [2015-07-13T02:57:32.664301 #5211] DEBUG -- :   [1m[36mMap Exists (1.2ms)[0m  [1mSELECT  1 AS one FROM "maps" WHERE "maps"."name" = 'Mapa SP' LIMIT 1[0m
+D, [2015-07-13T02:57:32.667023 #5211] DEBUG -- :   [1m[35m (0.1ms)[0m  rollback transaction
+D, [2015-07-13T02:57:43.940010 #5211] DEBUG -- :   [1m[36mMap Load (3.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T02:57:46.188538 #5211] DEBUG -- :   [1m[35mMap Load (1.6ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1  [["name", "Mapa SP"]]
+D, [2015-07-13T02:57:47.210265 #5211] DEBUG -- :   [1m[36mMap Load (1.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:00:02.823333 #5211] DEBUG -- :   [1m[35mMap Load (4.0ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T03:00:05.327487 #5211] DEBUG -- :   [1m[36mMap Load (1.2ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:00:15.205301 #5211] DEBUG -- :   [1m[35mMap Load (4.4ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T03:01:05.518613 #5211] DEBUG -- :   [1m[36mMap Load (1.9ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:01:49.487634 #5211] DEBUG -- :   [1m[35mMap Load (2.4ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T03:01:49.488143 #5211] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2015-07-13T03:01:49.494720 #5211] DEBUG -- :   [1m[35mSQL (5.4ms)[0m  DELETE FROM "maps" WHERE "maps"."id" = ?  [["id", 2]]
+D, [2015-07-13T03:01:49.504082 #5211] DEBUG -- :   [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+D, [2015-07-13T03:01:50.945252 #5211] DEBUG -- :   [1m[35mMap Load (1.4ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T03:01:52.021470 #5211] DEBUG -- :   [1m[36mMap Load (1.1ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:01:53.932755 #5211] DEBUG -- :   [1m[35mMap Load (1.1ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T03:03:35.826599 #5211] DEBUG -- :   [1m[36m (2.2ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:03:42.375788 #5211] DEBUG -- :   [1m[35m (1.4ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "TESTE"]]
+D, [2015-07-13T03:03:46.803955 #5211] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "TEST"]]
+D, [2015-07-13T03:03:46.805764 #5211] DEBUG -- :   [1m[35mMap Load (1.1ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "TEST"]]
+D, [2015-07-13T03:03:46.806327 #5211] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2015-07-13T03:03:46.810836 #5211] DEBUG -- :   [1m[35mSQL (3.7ms)[0m  DELETE FROM "maps" WHERE "maps"."id" = ?  [["id", 1]]
+D, [2015-07-13T03:03:46.822558 #5211] DEBUG -- :   [1m[36m (10.8ms)[0m  [1mcommit transaction[0m
+D, [2015-07-13T03:03:47.965412 #5211] DEBUG -- :   [1m[35m (2.7ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "TEST"]]
+D, [2015-07-13T03:07:53.585259 #5314] DEBUG -- :   [1m[36mMap Load (4.0ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:08:10.933733 #5314] DEBUG -- :   [1m[35m (1.4ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T03:08:10.935678 #5314] DEBUG -- :   [1m[36mMap Load (1.3ms)[0m  [1mSELECT "maps".* FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:08:10.936144 #5314] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2015-07-13T03:08:10.940024 #5314] DEBUG -- :   [1m[36mNode Load (2.1ms)[0m  [1mSELECT "nodes".* FROM "nodes" WHERE "nodes"."map_id" = ?[0m  [["map_id", 2]]
+D, [2015-07-13T03:08:10.946988 #5314] DEBUG -- :   [1m[35mSQL (3.1ms)[0m  DELETE FROM "nodes" WHERE "nodes"."id" = ?  [["id", 6]]
+D, [2015-07-13T03:08:10.947798 #5314] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "nodes" WHERE "nodes"."id" = ?[0m  [["id", 7]]
+D, [2015-07-13T03:08:10.948792 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  DELETE FROM "nodes" WHERE "nodes"."id" = ?  [["id", 8]]
+D, [2015-07-13T03:08:10.950847 #5314] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "nodes" WHERE "nodes"."id" = ?[0m  [["id", 9]]
+D, [2015-07-13T03:08:10.952489 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  DELETE FROM "nodes" WHERE "nodes"."id" = ?  [["id", 10]]
+D, [2015-07-13T03:08:10.953225 #5314] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "nodes" WHERE "nodes"."id" = ?[0m  [["id", 11]]
+D, [2015-07-13T03:08:10.954508 #5314] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM "maps" WHERE "maps"."id" = ?  [["id", 2]]
+D, [2015-07-13T03:08:10.964710 #5314] DEBUG -- :   [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+D, [2015-07-13T03:08:12.152246 #5314] DEBUG -- :   [1m[35m (1.3ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "Mapa SP"]]
+D, [2015-07-13T03:08:17.413374 #5314] DEBUG -- :   [1m[36mMap Load (2.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:08:17.415972 #5314] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2015-07-13T03:08:17.418877 #5314] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'B') LIMIT 1[0m
+D, [2015-07-13T03:08:17.419835 #5314] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'D') LIMIT 1
+D, [2015-07-13T03:08:17.420857 #5314] DEBUG -- :   [1m[36mNode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'C') LIMIT 1[0m
+D, [2015-07-13T03:08:17.422536 #5314] DEBUG -- :   [1m[35mNode Exists (0.2ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'C' AND "nodes"."destination" = 'D') LIMIT 1
+D, [2015-07-13T03:08:17.424275 #5314] DEBUG -- :   [1m[36mNode Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T03:08:17.427064 #5314] DEBUG -- :   [1m[35mNode Exists (0.3ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'D' AND "nodes"."destination" = 'E') LIMIT 1
+D, [2015-07-13T03:08:17.429537 #5314] DEBUG -- :   [1m[36mMap Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "maps" WHERE "maps"."name" = 'Mapa SP' LIMIT 1[0m
+D, [2015-07-13T03:08:17.437777 #5314] DEBUG -- :   [1m[35mSQL (6.0ms)[0m  INSERT INTO "maps" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Mapa SP"], ["created_at", "2015-07-13 03:08:17.429938"], ["updated_at", "2015-07-13 03:08:17.429938"]]
+D, [2015-07-13T03:08:17.440523 #5314] DEBUG -- :   [1m[36mNode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 3 AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'B') LIMIT 1[0m
+D, [2015-07-13T03:08:17.445168 #5314] DEBUG -- :   [1m[35mSQL (2.0ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "A"], ["destination", "B"], ["distanceInKilometer", 10.0], ["map_id", 3], ["created_at", "2015-07-13 03:08:17.440916"], ["updated_at", "2015-07-13 03:08:17.440916"]]
+D, [2015-07-13T03:08:17.447516 #5314] DEBUG -- :   [1m[36mNode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 3 AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'D') LIMIT 1[0m
+D, [2015-07-13T03:08:17.448758 #5314] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "B"], ["destination", "D"], ["distanceInKilometer", 15.0], ["map_id", 3], ["created_at", "2015-07-13 03:08:17.447684"], ["updated_at", "2015-07-13 03:08:17.447684"]]
+D, [2015-07-13T03:08:17.451877 #5314] DEBUG -- :   [1m[36mNode Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 3 AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'C') LIMIT 1[0m
+D, [2015-07-13T03:08:17.453978 #5314] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "A"], ["destination", "C"], ["distanceInKilometer", 20.0], ["map_id", 3], ["created_at", "2015-07-13 03:08:17.452295"], ["updated_at", "2015-07-13 03:08:17.452295"]]
+D, [2015-07-13T03:08:17.459188 #5314] DEBUG -- :   [1m[36mNode Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 3 AND "nodes"."departure" = 'C' AND "nodes"."destination" = 'D') LIMIT 1[0m
+D, [2015-07-13T03:08:17.460559 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "C"], ["destination", "D"], ["distanceInKilometer", 30.0], ["map_id", 3], ["created_at", "2015-07-13 03:08:17.459477"], ["updated_at", "2015-07-13 03:08:17.459477"]]
+D, [2015-07-13T03:08:17.462473 #5314] DEBUG -- :   [1m[36mNode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 3 AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T03:08:17.463531 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "B"], ["destination", "E"], ["distanceInKilometer", 50.0], ["map_id", 3], ["created_at", "2015-07-13 03:08:17.462638"], ["updated_at", "2015-07-13 03:08:17.462638"]]
+D, [2015-07-13T03:08:17.464869 #5314] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 3 AND "nodes"."departure" = 'D' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T03:08:17.465826 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "D"], ["destination", "E"], ["distanceInKilometer", 30.0], ["map_id", 3], ["created_at", "2015-07-13 03:08:17.465004"], ["updated_at", "2015-07-13 03:08:17.465004"]]
+D, [2015-07-13T03:08:17.473699 #5314] DEBUG -- :   [1m[36m (7.2ms)[0m  [1mcommit transaction[0m
+D, [2015-07-13T03:08:18.760770 #5314] DEBUG -- :   [1m[35mMap Load (2.6ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1  [["name", "Mapa SP"]]
+D, [2015-07-13T03:05:13.247478 #5314] DEBUG -- :   [1m[36m (2.2ms)[0m  [1mSELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?[0m  [["name", "TEST"]]
+D, [2015-07-13T03:05:13.251214 #5314] DEBUG -- :   [1m[35mMap Load (2.5ms)[0m  SELECT "maps".* FROM "maps" WHERE "maps"."name" = ?  [["name", "TEST"]]
+D, [2015-07-13T03:05:13.262864 #5314] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+D, [2015-07-13T03:05:13.291992 #5314] DEBUG -- :   [1m[35mNode Load (3.4ms)[0m  SELECT "nodes".* FROM "nodes" WHERE "nodes"."map_id" = ?  [["map_id", 1]]
+D, [2015-07-13T03:05:13.313866 #5314] DEBUG -- :   [1m[36mSQL (2.9ms)[0m  [1mDELETE FROM "nodes" WHERE "nodes"."id" = ?[0m  [["id", 1]]
+D, [2015-07-13T03:05:13.314660 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  DELETE FROM "nodes" WHERE "nodes"."id" = ?  [["id", 2]]
+D, [2015-07-13T03:05:13.315541 #5314] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "nodes" WHERE "nodes"."id" = ?[0m  [["id", 3]]
+D, [2015-07-13T03:05:13.317191 #5314] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  DELETE FROM "nodes" WHERE "nodes"."id" = ?  [["id", 4]]
+D, [2015-07-13T03:05:13.318261 #5314] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "nodes" WHERE "nodes"."id" = ?[0m  [["id", 5]]
+D, [2015-07-13T03:05:13.321109 #5314] DEBUG -- :   [1m[35mSQL (1.2ms)[0m  DELETE FROM "maps" WHERE "maps"."id" = ?  [["id", 1]]
+D, [2015-07-13T03:05:13.329537 #5314] DEBUG -- :   [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+D, [2015-07-13T03:05:14.330389 #5314] DEBUG -- :   [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "maps" WHERE "maps"."name" = ?  [["name", "TEST"]]
+D, [2015-07-13T03:05:31.760444 #5314] DEBUG -- :   [1m[36mMap Load (1.6ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "Mapa SP"]]
+D, [2015-07-13T03:05:31.763496 #5314] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2015-07-13T03:05:31.813767 #5314] DEBUG -- :   [1m[36mNode Exists (1.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'B') LIMIT 1[0m
+D, [2015-07-13T03:05:31.815088 #5314] DEBUG -- :   [1m[35mNode Exists (0.1ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'D') LIMIT 1
+D, [2015-07-13T03:05:31.815946 #5314] DEBUG -- :   [1m[36mNode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'C') LIMIT 1[0m
+D, [2015-07-13T03:05:31.817815 #5314] DEBUG -- :   [1m[35mNode Exists (0.3ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'C' AND "nodes"."destination" = 'D') LIMIT 1
+D, [2015-07-13T03:05:31.821201 #5314] DEBUG -- :   [1m[36mNode Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T03:05:31.823058 #5314] DEBUG -- :   [1m[35mNode Exists (0.2ms)[0m  SELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" IS NULL AND "nodes"."departure" = 'D' AND "nodes"."destination" = 'E') LIMIT 1
+D, [2015-07-13T03:05:31.824673 #5314] DEBUG -- :   [1m[36mMap Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "maps" WHERE "maps"."name" = 'Mapa SP' LIMIT 1[0m
+D, [2015-07-13T03:05:31.829093 #5314] DEBUG -- :   [1m[35mSQL (2.2ms)[0m  INSERT INTO "maps" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Mapa SP"], ["created_at", "2015-07-13 03:05:31.825810"], ["updated_at", "2015-07-13 03:05:31.825810"]]
+D, [2015-07-13T03:05:31.830830 #5314] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'B') LIMIT 1[0m
+D, [2015-07-13T03:05:31.832831 #5314] DEBUG -- :   [1m[35mSQL (0.9ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "A"], ["destination", "B"], ["distanceInKilometer", 10.0], ["map_id", 2], ["created_at", "2015-07-13 03:05:31.831018"], ["updated_at", "2015-07-13 03:05:31.831018"]]
+D, [2015-07-13T03:05:31.837448 #5314] DEBUG -- :   [1m[36mNode Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'D') LIMIT 1[0m
+D, [2015-07-13T03:05:31.840450 #5314] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "B"], ["destination", "D"], ["distanceInKilometer", 15.0], ["map_id", 2], ["created_at", "2015-07-13 03:05:31.838027"], ["updated_at", "2015-07-13 03:05:31.838027"]]
+D, [2015-07-13T03:05:31.842126 #5314] DEBUG -- :   [1m[36mNode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'A' AND "nodes"."destination" = 'C') LIMIT 1[0m
+D, [2015-07-13T03:05:31.843112 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "A"], ["destination", "C"], ["distanceInKilometer", 20.0], ["map_id", 2], ["created_at", "2015-07-13 03:05:31.842275"], ["updated_at", "2015-07-13 03:05:31.842275"]]
+D, [2015-07-13T03:05:31.844378 #5314] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'C' AND "nodes"."destination" = 'D') LIMIT 1[0m
+D, [2015-07-13T03:05:31.845355 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "C"], ["destination", "D"], ["distanceInKilometer", 30.0], ["map_id", 2], ["created_at", "2015-07-13 03:05:31.844509"], ["updated_at", "2015-07-13 03:05:31.844509"]]
+D, [2015-07-13T03:05:31.846534 #5314] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'B' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T03:05:31.847555 #5314] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "B"], ["destination", "E"], ["distanceInKilometer", 50.0], ["map_id", 2], ["created_at", "2015-07-13 03:05:31.846661"], ["updated_at", "2015-07-13 03:05:31.846661"]]
+D, [2015-07-13T03:05:31.848885 #5314] DEBUG -- :   [1m[36mNode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nodes" WHERE ("nodes"."map_id" = 2 AND "nodes"."departure" = 'D' AND "nodes"."destination" = 'E') LIMIT 1[0m
+D, [2015-07-13T03:05:31.850682 #5314] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  INSERT INTO "nodes" ("departure", "destination", "distanceInKilometer", "map_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["departure", "D"], ["destination", "E"], ["distanceInKilometer", 30.0], ["map_id", 2], ["created_at", "2015-07-13 03:05:31.849086"], ["updated_at", "2015-07-13 03:05:31.849086"]]
+D, [2015-07-13T03:05:31.861756 #5314] DEBUG -- :   [1m[36m (9.6ms)[0m  [1mcommit transaction[0m
+D, [2015-07-13T03:07:43.619288 #5314] DEBUG -- :   [1m[35mMap Load (2.3ms)[0m  SELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1  [["name", "Mapa SP"]]
