@@ -3,8 +3,8 @@ LEVAETRAZ
 =======================
 
 - RabbitMQ ou DelayedJob para processamento em background
-- MongoDB pra armazenar os mapas
-- Algoritmo genético para TSP?
+- SQLite
+- Dijkstra
 - Sinatra
 
 
@@ -50,7 +50,7 @@ LEVAETRAZ
 }
 ```
 
-## Menor valor de entrega e melhor caminho (TSP)
+## Menor valor de entrega e melhor caminho (VRP)
 
 - Parâmetros de entrada para se calcular qual é a melhor rota
   * Malha logística
@@ -107,5 +107,5 @@ LEVAETRAZ
 }
 ```
 
-- Minimizar gasto levando em consideração a distância euclidiana entre os pontos:
+- Minimizar gasto levando em consideração o custo entre os pontos:
   * min(cost) = (sum(distanceP2P) / vehicleAutonomy) * costPerLiter
