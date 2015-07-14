@@ -1,6 +1,9 @@
 require 'bundler'
 Bundler.require
+
 require 'logger'
+require './helpers/node_helper.rb'
+require './dijkstra_graph.rb'
 require './models/map.rb'
 require './models/node.rb'
 
@@ -13,47 +16,56 @@ ActiveRecord::Base.logger = Logger.new(File.open("log/#{RACK_ENV}.log", "a+"))
 
 
 configure do
-	set :port, 5000
+	set :port, 8000
 	set :bind, '0.0.0.0'
 end
+
 
 
 get '/' do
 	Node.all.inspect
 end
 
-
 post '/map' do
-	data = JSON.parse(request.body.read).to_hash
-	
-	map = data["map"]
-	mapName = map["name"]
-	mapNodes = map["points"]
+	data = JSON.parse(request.body.read).to_hash	
+	validates_general_data data
+
+	map = data['map']
+	validates_map_data map
+
+	mapName = map['name']
+	mapNodes = map['points']
+
+
+	if mapNodes.empty?
+		throw(:halt, [400, "Invalid map\n"])
+	end
 
 	map = Map.find_by name: mapName
-	
 	if map.nil?
 
 		map = Map.new
 		map.name = mapName
+		
 
-		mapNodes.each do |_node|
 
-			node = Node.new
-			node.departure = _node["departure"]
-			node.destination = _node["destination"]
-			node.distanceInKilometer = _node["distanceInKilometer"]
 
-			map.nodes.push(node)
+		
+		distinctNodes = get_unique_nodes mapNodes
+		
+		graph = DijkstraGraph.new
+		distinctNodes.each do |k,v|
+
+			children = {}
+			v.each do |_child|
+				children[_child[:destination]] = _child[:distanceInKilometers]
+			end
+			graph.add_node(k, children)
 		end
 
-		map.save!
+		graph.calculate_optimal_route(data['origin'], data['destination'])		
 	end
-
-	@foundMap = map
-	@foundMap.inspect
 end
-
 
 delete "/map" do
 

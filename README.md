@@ -19,32 +19,32 @@ LEVAETRAZ
 		{
 			"departure": "A", 
 			"destination": "B",
-			"distanceInKilometer": 10 
+			"distanceInKilometers": 10 
 		},
 		{
 			"departure": "B",
 			"destination": "D",
-			"distanceInKilometer": 15 
+			"distanceInKilometers": 15 
 		},
 		{
 			"departure": "A",
 			"destination": "C",
-			"distanceInKilometer": 20 
+			"distanceInKilometers": 20 
 		},
 		{
 			"departure": "C",
 			"destination": "D",
-			"distanceInKilometer": 30 
+			"distanceInKilometers": 30 
 		},
 		{
 			"departure": "B",
 			"destination": "E",
-			"distanceInKilometer": 50 
+			"distanceInKilometers": 50 
 		},
 		{
 			"departure": "D",
 			"destination": "E",
-			"distanceInKilometer": 30 
+			"distanceInKilometers": 30 
 		}
 	]
 }
@@ -71,32 +71,32 @@ LEVAETRAZ
 			{
 				"departure": "A", 
 				"destination": "B",
-				"distanceInKilometer": 10 
+				"distanceInKilometers": 10 
 			},
 			{
 				"departure": "B",
 				"destination": "D",
-				"distanceInKilometer": 15 
+				"distanceInKilometers": 15 
 			},
 			{
 				"departure": "A",
 				"destination": "C",
-				"distanceInKilometer": 20 
+				"distanceInKilometers": 20 
 			},
 			{
 				"departure": "C",
 				"destination": "D",
-				"distanceInKilometer": 30 
+				"distanceInKilometers": 30 
 			},
 			{
 				"departure": "B",
 				"destination": "E",
-				"distanceInKilometer": 50 
+				"distanceInKilometers": 50 
 			},
 			{
 				"departure": "D",
 				"destination": "E",
-				"distanceInKilometer": 30 
+				"distanceInKilometers": 30 
 			}
 		]
 	},
