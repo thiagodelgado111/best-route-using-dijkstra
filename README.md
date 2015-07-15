@@ -106,6 +106,3 @@ LEVAETRAZ
 	"destination": "D"
 }
 ```
-
-- Minimizar gasto levando em consideração o custo entre os pontos:
-  * min(cost) = (sum(distanceP2P) / vehicleAutonomy) * costPerLiter
