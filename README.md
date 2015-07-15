@@ -2,9 +2,8 @@
 LEVAETRAZ
 =======================
 
-- RabbitMQ ou DelayedJob para processamento em background
 - SQLite
-- Dijkstra
+- Dijkstra para calcular qual é a melhor rota
 - Sinatra
 
 
@@ -106,3 +105,9 @@ LEVAETRAZ
 	"destination": "D"
 }
 ```
+
+
+## Roadmap
+- RabbitMQ ou DelayedJob para processamento em background
+- Versionamento da API
+
