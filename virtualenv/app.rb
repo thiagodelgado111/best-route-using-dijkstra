@@ -81,6 +81,7 @@ post '/map' do
 
 	# calculate distance between nodes and find the best route
 	path, distance = graph.calculate_optimal_route(data['origin'], data['destination'])
+
 	if vehicleAutonomyPerKilometer == 0
 		throw(:halt, [400, "Invalid vehicle autonomy\n"])
 	end

@@ -46,7 +46,7 @@ class DijkstraGraph
 
 				path.push(departure)
 
-				return path.reverse, vertices
+				return path.reverse, deltas
 			end
 
 			if smallest == nil or deltas[smallest] == MAX_INT
