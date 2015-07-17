@@ -1,0 +1,18 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+gem 'sinatra'
+gem 'pry'
+gem 'PriorityQueue'
+gem 'json'
+
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'sinatra-reloader'
+gem 'sqlite3'
+
+
+group :test do
+	gem 'rspec', :require => 'spec'
+	gem 'capybara'
+end
