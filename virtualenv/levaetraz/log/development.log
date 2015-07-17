@@ -1028,3 +1028,5 @@ D, [2015-07-17T05:06:46.545098 #18028] DEBUG -- :   [1m[35mNode Load (2.5ms)[
 D, [2015-07-17T05:07:19.156978 #18035] DEBUG -- :   [1m[36mMap Load (2.6ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "MAPA SP"]]
 D, [2015-07-17T05:09:12.252329 #18043] DEBUG -- :   [1m[36mMap Load (2.4ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "MAPA SP"]]
 D, [2015-07-17T05:09:12.274291 #18043] DEBUG -- :   [1m[35mNode Load (2.0ms)[0m  SELECT "nodes".* FROM "nodes" WHERE "nodes"."map_id" = ?  [["map_id", 2]]
+D, [2015-07-17T06:40:31.212404 #18536] DEBUG -- :   [1m[36mMap Load (1.3ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "TEST"]]
+D, [2015-07-17T06:42:35.576660 #18542] DEBUG -- :   [1m[36mMap Load (1.2ms)[0m  [1mSELECT  "maps".* FROM "maps" WHERE "maps"."name" = ? LIMIT 1[0m  [["name", "TEST"]]

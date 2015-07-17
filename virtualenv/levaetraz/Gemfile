@@ -14,5 +14,6 @@ gem 'sqlite3'
 
 group :test do
 	gem 'rspec', :require => 'spec'
+  	gem 'rack-test'
 	gem 'capybara'
 end
