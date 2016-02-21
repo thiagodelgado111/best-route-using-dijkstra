@@ -84,5 +84,7 @@ The service can be tested by sending JSON requests to its endpoints (REST based)
 ```
 
 ## DELETE
+
 ### "/map"
 - Deletes existing map by name
+
