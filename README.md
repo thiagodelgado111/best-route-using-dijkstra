@@ -1,49 +1,46 @@
-
-Rota mais eficiente baseando-se em malhas logísticas
+Find most efficient route using Djikstra algorithm
 =======================
 
-### Motivação
-
-Tecnologias utilizadas:
-- SQLite
-- Bundler
-- ActiveRecord
-- PriorityQueue
-- Sinatra
-
-
-As tecnologias escolhidas permitem que a aplicação seja criada rapidamente, tendo em vista que provê a infraestrutura necessária para a criação de um serviço "REST" em pouquissimo tempo. 
-
-A título de simplicidade, optei por utilizar sqlite3 com a implementação de ActiveRecord já muito conhecida - utilizada em produção em vários ambientes - para cuidar da persistência dos dados. Para determinar a rota menos custosa, escolhi o algoritmo de Dijkstra com uma Fibonnaci-Heap visando a rapidez na busca e na remoção dos items da fila. 
-
-Nesse post no stackoverflow tem uma discussão completa sobre o assunto da performance:
-[http://stackoverflow.com/questions/21065855/the-big-o-on-the-dijkstra-fibonacci-heap-solution]
-
-
-### Como usar:
-Pra fazer o deploy, basta executar os passos abaixo:
+### Usage:
 
 ```shell
 rake db:create && rake db:migrate
 bundle exec rackup -p 8000
 ``` 
 
+## Routes
 
-### Rotas
+The service can be tested by sending JSON requests to its endpoints (REST based).
 
-O serviço pode ser testado utilizando-se um client REST, aceita requisições JSON.
+### GET
+#### "/get"
+- Fetch map details by name
+	http://localhost:8000/get?name=MAP+SP
 
-#### GET
-"/get"
-- Obter detalhes do mapa, utilizando o parâmetro "name"
-	http://localhost:8000/get?name=MAPA SP
 
-#### POST
-"/map"
-- Enviar json com dados do mapa e dos pontos da malha para persistir na base de dados
+#### "/best_route"
+- Send map name, vehicle autonomy (km per liter), fuel cost per liter, departure point and arrival.
+	http://localhost:8000/best_route
+---
+
+##### RESPONSE
+```json
+{
+    "name" : "MAPA SP",
+    "fuelCostPerLiter" : 2.5,
+	"vehicleAutonomyPerKilometer": 10,
+	"origin" : "B",
+	"destination": "E"
+}
+```
+
+
+## POST
+### "/map"
+- Persist map to database
 	http://localhost:8000/map/
 
-JSON - Malha logística para criar/atualizar o mapa
+### JSON map sample
  
 ```json
 {
@@ -86,25 +83,6 @@ JSON - Malha logística para criar/atualizar o mapa
 }
 ```
 
-
-
-"/best_route"
-- Enviar o nome do mapa, autonomia do veículo, custo por litro de combustível, origem e destino
-	http://localhost:8000/best_route
-
-
-```json
-{
-    "name" : "MAPA SP",
-    "fuelCostPerLiter" : 2.5,
-	"vehicleAutonomyPerKilometer": 10,
-	"origin" : "B",
-	"destination": "E"
-}
-```
-
-
-#### DELETE
-"/map"
-- Deleta o mapa existente, basta passar o nome do mapa como parâmetro
-	http://localhost:8000/map/
+## DELETE
+### "/map"
+- Deletes existing map by name
